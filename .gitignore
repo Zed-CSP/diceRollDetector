@@ -1,0 +1,36 @@
+# Ignore .env file
+.env
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore TensorFlow checkpoints
+checkpoint
+*.ckpt
+*.ckpt.meta
+
+# Ignore HDF5 files (saved models)
+*.h5
+
+# Ignore model directory if you save models there
+/saved_model/
+
+# Ignore dataset directories
+/data/
+
+# Ignore any IDE specific files (example for VSCode)
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
